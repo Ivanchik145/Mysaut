@@ -1,0 +1,72 @@
+.header-line {
+    border-top: 5px solid #7f00ba; /* Толщина и цвет полосы */
+    padding-top: 20px;
+}
+body {
+    font-family: Bradley Hand, cursive; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #D6FF6B; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+h1 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 34px; /* Размер шрифта в пунктах */
+    font-family: Bradley Hand, cursive; /* Семейство шрифтов */
+    text-align: center;
+}
+.weather{
+    margin-left: 70%;
+
+}
+h2 {
+    color: #FD98FB;
+    font-size: 35px; /* Размер шрифта в пунктах */
+    font-family: Bradley Hand, cursive; /* Семейство шрифтов */
+    text-align: center;
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+  0%   { color: red }
+  17%   { color: orange; }
+  34%   { color: yellow; }
+  51%   { color: green; }
+  68%   { color: #00e1ff; }
+  85%  { color: blue; }
+  100% { color: purple; }
+  from { background-color: #00f2ff;}
+  to { background-color: #5988FF;}
+
+}
+img {
+    max-width:  50%;
+    height: auto;
+    
+}
+.my-block {
+    width: 90%; /* Ширина блока */
+    height: auto; /* Высота блока */
+    background-color: #5988FF; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 20px; /* Отступы внутри блока */
+    margin: 10px auto; /* Внешние отступы: 15px сверху/снизу, блок по центру */
+    border-radius: 15px; /* Скругление углов */
+    font-size: 20px;
+    font-family: Bradley Hand, cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my2-block{
+    width: 90%; /* Ширина блока */
+    height: auto; /* Высота блока */
+    background-color: #5988FF; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 20px; /* Отступы внутри блока */
+    margin: 10px auto; /* Внешние отступы: 15px сверху/снизу, блок по центру */
+    border-radius: 15px; /* Скругление углов */
+    font-size: 20px;
+    font-family: Bradley Hand, cursive;
+    
+    
+}
+
